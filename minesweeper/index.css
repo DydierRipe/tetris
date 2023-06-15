@@ -1,0 +1,17 @@
+.tetris-table {
+    display: grid;
+    
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(20, 30px);
+
+    margin: 30px auto;
+    height: fit-content;
+    width: fit-content;
+ 
+    border: 5px #0331ffc5 solid;
+    background-color: #19253b;
+}
+
+.box {
+    border: 1px #2c3546 solid;
+}
